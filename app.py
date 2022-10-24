@@ -2,7 +2,6 @@ import datetime
 from flask import Flask, render_template, request
 from pymongo import MongoClient
 
-
 def create_app():
     app=Flask(__name__)
     client=MongoClient("mongodb+srv://eunbiyoon:Emily135@microblog-application.vihgli5.mongodb.net/test")
